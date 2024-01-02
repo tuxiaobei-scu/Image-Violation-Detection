@@ -135,7 +135,7 @@ API `POST /check_img`
 - `sensitive_detect_type`=`remote`/`local`，表示敏感词检测方法，是本地词库匹配还是调用 API，若不设置此环境变量则不进行敏感词检测
 - `sen_api_key`=仅敏感词检测为 `remote` 需要，请前往 [该网站](https://www.wordscheck.com/) 获取 API key
 - `mal_api_key`=二维码域名检测需要，若不设置此环境变量则不进行二维码域名检测，请前往 [该网站](https://api.ooomn.com/doc/qqsafe.html) 获取 API key
-- `knn_query_k`=黑白名单最大返回个数，若不设置默认为 $1$，最大不超过 $50$
+- `knn_query_k`=黑白名单最大返回个数，若不设置默认为 1，最大不超过 50
 
 #### 运行命令
 
