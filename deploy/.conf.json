@@ -1,0 +1,8 @@
+{
+    "groups": [8888888],
+    "verifyKey": "abcd",
+    "api_url": "http://127.0.0.1:23456",
+    "bot_qq": 8888888,
+    "pic_check_api": "http://127.0.0.1:5500/check_img",
+    "threshold": 0.3
+}

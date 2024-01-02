@@ -1,0 +1,1 @@
+docker run --env-file env.list -p 5500:5500 -v ./img_data:/app/img_data --name image_violation_detection --restart=always tuxiaobei/image_violation_detection

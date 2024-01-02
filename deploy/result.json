@@ -1,0 +1,38 @@
+{
+    "code": 0,
+    "data": {
+        "img": "tmp/41d96af188e8640fe730bd2aebb344dd",
+        "white_result":  {"filename": "a.png", "sim": 0.96},
+        "black_result":  {"filename": "b.png", "sim": 0.52},
+        "imgclass_result": [
+            {
+                "label": "normal",
+                "prob": 0.9997885823249817
+            },
+            {
+                "label": "porn",
+                "prob": 0.00018990205717273057
+            },
+            {
+                "label": "sensitive",
+                "prob": 2.1459745767060667e-05
+            }
+        ],
+        "malicious_detect": [
+            {
+                "Wording": "该网站发布了违反国家相关法律规定的内容，已为您拦截。",
+                "WordingTitle": "网站含有违规内容",
+                "code": 201,
+                "detect_time": "2023-04-14 16:41:02",
+                "msg": "域名拦截",
+                "url": "https://aaa.com"
+            }
+        ],
+        "ocr_result": "测试",
+        "sensitive_detect": {
+            "category": "None",
+            "keyword": "None"
+        }
+    },
+    "msg": "success"
+}
