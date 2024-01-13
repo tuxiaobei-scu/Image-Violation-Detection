@@ -61,9 +61,9 @@
 
 ## 使用说明
 
-可直接使用 `Docker` 环境运行此系统，如果需直接运行可参考 `docker/Dockerfile` 文件配置环境。
+- 可直接使用 `Docker` 环境运行此系统，如果需直接运行可参考 `docker/Dockerfile` 文件配置环境。
 
-如需构建镜像，请先从 `Releases` 中下载 `model_main.onnx` 与 `model_search.onnx` 模型文件到 `docker` 目录，在 `docker` 目录下执行 `docker build -t image_violation_detection .`。
+- 如需构建镜像，请先从 `Releases` 中下载 `model_main.onnx` 与 `model_search.onnx` 模型文件到 `docker` 目录，在 `docker` 目录下执行 `docker build -t image_violation_detection .`。
 
 ### 接口说明
 
